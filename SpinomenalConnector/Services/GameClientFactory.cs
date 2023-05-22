@@ -11,7 +11,7 @@
                 case "INT2":
                     return new INT2GameClient();
                 default:
-                    throw new ArgumentException("Invalid product type.");
+                    throw new ArgumentException("Invalid Client type.");
             }
         }
     }
